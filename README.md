@@ -1,3 +1,7 @@
+# My React Tutorial Fork!
+With this fork my objective is to give also give easy access to bootstrap too, and a simple way to use the JSX in production, with Babel's world.js
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 # React Tutorial

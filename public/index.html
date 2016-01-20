@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>React Tutorial</title>
-    <!-- Not present in the tutorial. Just for basic styling. -->
-    <link rel="stylesheet" href="css/base.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+        
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
+
+
   </head>
   <body>
-    <div id="content"></div>
     <script type="text/babel" src="scripts/example.js"></script>
-    <script type="text/babel">
-      // To get started with this tutorial running your own code, simply remove
-      // the script tag loading scripts/example.js and start writing code here.
-    </script>
+
+    <div id="container">
+        <!-- This element's contents will be replaced with your component. -->
+    </div>
+
+    <ul class="nav nav-tabs">
+       <li class="active"><a href="#a" data-toggle="tab">a</a></li>
+       <li><a href="#b" data-toggle="tab">b</a></li>
+       <li><a href="#c" data-toggle="tab">c</a></li>
+       <li><a href="#d" data-toggle="tab">d</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="a">a</div>
+      <div class="tab-pane" id="b">b</div>
+      <div class="tab-pane" id="c">c</div>
+      <div class="tab-pane" id="d">d</div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://fb.me/react-with-addons-0.14.6.min.js"></script>
+    <script src="https://fb.me/react-dom-0.14.6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
   </body>
 </html>
